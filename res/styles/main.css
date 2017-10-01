@@ -80,7 +80,7 @@ hr {
 
     text-align: center;
     color: #ffffff;
-    background: url("../media/imgs/mmf/fon3.png") no-repeat center top;
+    background: url("res/imgs/fon3.png") no-repeat center top;
     min-height: 600px;
     width: 100%;
 
@@ -154,7 +154,7 @@ hr {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    background: url("../media/imgs/mmf/photo/ph8.jpg") no-repeat center top;
+    background: url("res/imgs/ph8.jpg") no-repeat center top;
     color: #fffcff;
 }
 
