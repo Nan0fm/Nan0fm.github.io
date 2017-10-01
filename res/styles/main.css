@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #373572;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #4c3685;
+}
+
+ul li {
+    font-family: "Raleway";
+
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #390e14;
+}
+
+a:hover, a:focus {
+    color: #008d83;
+    text-decoration: none;
+    outline: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse {
+    background: rgba(55, 53, 114, 0);
+    border-color: rgba(55, 53, 114, 0);
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #292855;
+    border-color: #abfefc;
+    color: #abfefc;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #abfefc;
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+#headerwrap {
+
+    text-align: center;
+    color: #ffffff;
+    background: url("../media/imgs/mmf/fon3.png") no-repeat center top;
+    min-height: 600px;
+    width: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#headerwrap h1 {
+    margin-top: 160px;
+    color: white;
+    font-weight: 300;
+    font-size: 70px;
+    letter-spacing: 1px;
+}
+
+#headerwrap h2 {
+    color: white;
+    font-size: 34px;
+    letter-spacing: 2px;
+    /*text-transform: uppercase;*/
+}
+
+.w {
+    padding-top: 0;
+}
+
+.w h4 {
+    font-size: 24px;;
+}
+
+#dg {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+#dg h4 {
+    font-size: 40px;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.tilt img {
+    height: 80%;
+    width: 80%;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}
+
+.wb {
+    width: 100%;
+    padding-top: 16px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background: url("../media/imgs/mmf/photo/ph8.jpg") no-repeat center top;
+    color: #fffcff;
+}
+
+.wb h4 {
+    font-size: 26px;
+    color: white;
+
+    padding-top: 28px;
+    padding-bottom: 16px;
+}
+
+.wb p {
+
+    padding-bottom: 280px;
+}
+
+#lg {
+    background: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+#lg h4 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#lg h5 {
+    font-size: 26px;
+}
+
+#lg img {
+    height: 35%;
+    width: 35%;
+}
+
+#r {
+    background: #008d83;
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+}
+
+#r h4 {
+    color: white;
+    font-size: 45px;
+}
+
+#r p {
+    color: white;
+
+}
+
+#f {
+    background: #2d2d2d;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+#f i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#f i:hover {
+    color: #008d83;
+}
+
+/*//*/
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 700px;
+    padding: 3%;
+}
+
+.content, .sidebar {
+    float: left;
+}
+
+.content {
+    width: 68%;
+    margin-right: 5%;
+}
+
+.sidebar {
+    width: 27%;
+}
+
+.box {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.img-header {
+    margin-top: 124px;
+}
+
+@media (min-width: 600px) {
+    .img-header {
+        margin-top: 24px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .img-header {
+        margin-top: 124px;
+    }
+}
